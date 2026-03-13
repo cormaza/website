@@ -21,7 +21,7 @@ class Website(models.Model):
         """
         if product and product.id:
             return (
-                _("Hello, I'm interested in product %s, I would like more information")
+                _("Hola, estoy interesado en el producto %s, quisiera mas información")
                 % product.display_name
             )
         return self.whatsapp_text or ""
@@ -42,7 +42,7 @@ class Website(models.Model):
 
         # If track URL is enabled, append the formatted URL
         if self.whatsapp_track_url:
-            sent_from = _("Sent from:")
+            sent_from = _("Origen:")
             base_url = self.domain or self.env["ir.config_parameter"].sudo().get_param(
                 "web.base.url"
             )
