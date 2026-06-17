@@ -1,0 +1,4 @@
+---Models in module 'website_whatsapp'---
+---Fields in module 'website_whatsapp'---
+---XML records in module 'website_whatsapp'---
+---nothing has changed in this module--
